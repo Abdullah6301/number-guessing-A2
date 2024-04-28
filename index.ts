@@ -2,6 +2,7 @@
 import inquirer from "inquirer"
 let condition : boolean = false;
 const random = Math.floor(Math.random()* 50 +1);
+console.log("Welcome to number guessing game: ");
 while(condition!=true) {
 const answer = await inquirer.prompt([
     {
